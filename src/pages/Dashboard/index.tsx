@@ -66,6 +66,7 @@ export default function Dashboard(){
 
   const toggleModal = () => {
     setModalOpen(!modalOpen);
+    return !modalOpen;
   }
 
   const toggleEditModal = () => {
